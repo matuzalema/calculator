@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="calculator">
+		
+			<input type="text" id="display" disabled>
+		
+		<div class="row">
+			<button type="button" data-value="c" id="cancel" class="bigButton">C</button>
+			<button type="button" data-value="&larr;" id="arrow">&larr;</button>
+			<button type="button" data-value="+" class="plus operatorClass">+</button>
+			
+		</div>
+		<div class="row">
+			<button type="button" class="number" data-value="7">7</button>
+			<button type="button" class="number" data-value="8">8</button>
+			<button type="button" class="number" data-value="9">9</button>
+			<button type="button" data-value="-" class="operatorClass">-</button>
+			
+		</div>
+		<div class="row">
+			<button type="button" class="number" data-value="4">4</button>
+			<button type="button" class="number" data-value="5">5</button>
+			<button type="button" class="number" data-value="6">6</button>
+			<button type="button" data-value="*" class="operatorClass">&times;</button>
+		</div>
+		<div class="row">
+			<button type="button" class="number" data-value="1">1</button>
+			<button type="button" class="number" data-value="2">2</button>
+			<button type="button" class="number" data-value="3">3</button>
+			<button type="button" data-value="/" class="operatorClass">&divide;</button>
+		</div>
+		<div class="row">
+			<button type="button" data-value="0" class="bigButton number">0</button>
+			<button type="button" data-value="=" class="bigButton equalClass">=</button>
+			
+		</div>
+
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
